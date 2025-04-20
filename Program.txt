@@ -1,0 +1,13 @@
+*/
+This is the initial program.js file that was handed out.
+*/
+
+public class Program {
+
+    public double main(String transportMethod, double distance){
+        VacationCostCalculator calculator = new VacationCostCalculator(distance);
+
+        double result = calculator.costOfVacation(transportMethod);
+        return result;
+    }
+} 
